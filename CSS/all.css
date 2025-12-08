@@ -1,0 +1,65 @@
+.content {
+    position: fixed;
+    top: 10px; 
+    left: 10px;
+    right: 10px;
+    z-index: 1000;
+    height: 80px;
+    background-color: rgb(255, 183, 0);
+    display: flex;
+    width: auto;
+    border-radius: 25px;
+}
+
+.content div{
+    float: left;
+}
+.content div {
+    border-radius: 25px;
+    text-align: center;
+    font-size: 28px;
+    flex: 1;
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+    width: 100px;
+    transition: all 0.5s;
+}
+.content div:hover{
+    background-color: rgb(255, 106, 0);
+    color: grey;
+}
+.background {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+} 
+.background_animal {
+    object-fit: cover;
+    width: 100%;
+} 
+.decoration {
+    width:30%;
+    position: absolute;
+    top: 13%;
+    left: 35%;
+    transition: all 0.5s;
+}
+.decoration:hover {
+    transform: scale(1.5);
+}
+.background_bowen {
+    object-fit: cover;
+    width:100%;
+}
+.decoration_text {
+    position: absolute;
+    top: 1200px;
+    left: 40%;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-weight: bold;
+}
