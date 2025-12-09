@@ -5,7 +5,7 @@
     right: 10px;
     z-index: 1000;
     height: 80px;
-    background-color: rgb(255, 183, 0);
+    background-color: rgba(255, 183, 0, 0.8);
     display: flex;
     width: auto;
     border-radius: 25px;
@@ -32,7 +32,7 @@
 
 .nav:hover {
     transform: scale(1.05);
-    background-color: rgb(255, 106, 0);
+    background-color: rgba(255, 106, 0, 0.8);
     color: rgb(164, 164, 164);
 }
 
@@ -631,7 +631,7 @@ html {
 }
 .QA {
     position: relative;
-    top: 600px;
+    top: 400px;
     background-color: white;
     border: 10px solid #368dff;
     width: 80%;
@@ -646,7 +646,7 @@ html {
     display: inline-block;
     object-fit: cover;
     object-position: top;
-    max-height: 90%;
+    max-height: 92%;
     border-radius: 30px;
 }
 .QA_title {
