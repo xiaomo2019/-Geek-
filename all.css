@@ -359,6 +359,13 @@ body {
 .introduction_image4:hover {
     transform: rotate(-30deg);
 }
+.introduction_section1:active,
+.introduction_section2:active,
+.introduction_section3:active,
+.introduction_section4:active {
+    transform: translateY(-1px);
+    transition: transform 0.1s ease;
+}
 .about_us {
     position: relative;
     top: 120px;
@@ -475,6 +482,12 @@ position: absolute;
     font-size: 30px;
     font-weight: bold;
     padding: 10px;
+}
+.about_content1:active,
+.about_content2:active,
+.about_content3:active {
+    transform: translateY(-1px);
+    transition: transform 0.1s ease;
 }
 .contact_us {
     position: relative;
