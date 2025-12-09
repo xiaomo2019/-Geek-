@@ -35,7 +35,11 @@
     background-color: rgba(255, 106, 0, 0.8);
     color: rgb(164, 164, 164);
 }
-
+.nav:active {
+    transform: translateY(-2px);
+    background-color: rgba(255, 100, 0, 0.9);
+    transition: transform 0.1s ease;
+}
 .nav-container {
     flex: 1; 
     position: relative;
@@ -569,6 +573,11 @@ position: absolute;
     background-color: rgb(35, 124, 0);
     color: rgb(164, 164, 164);
 }
+.another-btn:active {
+    transform: scale(0.95);
+    background-color: rgb(20, 100, 0);
+    transition: all 0.1s ease;
+}
 .qq-btn-wrapper {
     position: relative;
     display: inline-block;
@@ -742,4 +751,40 @@ html {
     opacity: 1;
     padding: 20px 25px;
     border-top: 1px solid #e5e7eb;
+}
+.back-to-top-btn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 56px;
+    height: 56px;
+    background-color: rgba(0, 153, 255, 0.9);
+    color: white;
+    border-radius: 23px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    opacity: 0.85;
+    visibility: visible;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.back-to-top-btn:hover {
+    background-color: rgba(0, 225, 255, 0.95);
+    transform: translateY(-3px) scale(1.1);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.back-to-top-btn:active {
+    transform: translateY(-1px);
+    transition: transform 0.1s ease;
 }
