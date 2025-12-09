@@ -8,9 +8,16 @@
 </head>
 <body>
         <div class="content">
-            <a class="nav" href="#background_2"><div>Introduction</div></a>
+            <div class="nav-container">
+                <a class ="nav" href="#background_2">
+                    <div>Introduction</div>
+                </a>
+                <div class="intro-hover-content">
+                    <img src="./背景/qq.jpg" alt="Introduction预览">
+                </div>
+            </div>
             <a class="nav" href="#about_us"><div>About Us</div></a>
-            <a class="nav" href="https://campus.new-thread.com"><div>NewThread</div></a>
+            <a class="nav" href="https://campus.new-thread.com"><div style="color: gray;">NewThread</div></a>
             <a class="nav" href="#contact_us"><div>Contact Us</div></a>
             <a class="nav" href="#QA"><div>Q&A</div></a>
         </div>   
@@ -110,21 +117,82 @@
                 <p class="contact_content1">PS:非新思路统招只有通过发送邮件自我介绍后，收到邮件回执后才会被允许进群,在读学生, 都可邮件到newthread_geek@outlook.com报名加入.(信中需备注个人基本信息以及意向方向,此招新活动为长期招新)</p>
             </div>
             <div class="contact_button">
-                <a href=>
-                    <div>QQ-Group</div>
+                <div class="qq-btn-wrapper">
+                    <div class="qq-btn">QQ-Group</div>
+                    <div class="qq-qrcode">
+                        <img src="./背景/qq.jpg" alt="QQ群二维码">
+                    </div>
+                </div>
+                <a href="#" id="copyEmailBtn">
+                    <div class="another-btn">E-mail</div>
                 </a>
-                <a href=>
-                    <div>E-mail</div>
-                </a>
-                <a href=>
-                    <div>Github</div>
+                <a href=https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click>
+                    <div class="another-btn">Github</div>
                 </a>
             </div>
+            <script src="./all.js"></script>
         </div>
         <div class="QA" id="QA">    
             <img class="background_QA" src="./背景/background_QA.png">
             <div class="QA_title">
                 More Questions
             </div>
+            <div class="qa-container">
+                <details class="question-item">
+                    <summary class="question">
+                        Q1: 如何加入新思路极客组？
+                    </summary>
+                    <div class="answer">
+                        请发送邮件到 newthread_geek@outlook.com，注明个人基本信息和意向方向。
+                    </div>
+                </details>
+                
+                <details class="question-item">
+                    <summary class="question">
+                        Q2: 需要什么基础才能加入？
+                    </summary>
+                    <div class="answer">
+                        有编程/算法/硬件基础为佳，但最重要的是对技术的热情和足够的学习时间。
+                    </div>
+                </details>
+                
+                <details class="question-item">
+                    <summary class="question">
+                        Q3: 每周需要投入多少时间？
+                    </summary>
+                    <div class="answer">
+                        建议每周至少投入30小时在实验室中学习和实践。
+                    </div>
+                </details>
+                
+                <details class="question-item">
+                    <summary class="question">
+                        Q4: 有哪些技术方向可以选择？
+                    </summary>
+                    <div class="answer">
+                        前后端开发、安全、AI、产品/设计、游戏开发等多种方向。
+                    </div>
+                </details>
+                
+                <details class="question-item">
+                    <summary class="question">
+                        Q5: 实验室的具体活动安排是怎样的？
+                    </summary>
+                    <div class="answer">
+                        每周会举行一次技术例会，成员分享学习内容并进行交流讨论。
+                    </div>
+                </details>
+                
+                <details class="question-item">
+                    <summary class="question">
+                        Q6: 加入后有什么学习资源？
+                    </summary>
+                    <div class="answer">
+                        提供技术指导、项目实践机会、学习资料分享以及行业经验交流。
+                    </div>
+                </details>
+            </div>
+        </div>    
+</div>
 </body>
 </html>
